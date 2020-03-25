@@ -1,5 +1,15 @@
+header
+{display :flex;
+flex-direction: column;
+}
 .photo
-{ border: 10px rgb(254,210,48); 
+{ border: 10px rgb(254,210,48) solid; 
 border-radius: 50%;
-width: 50px;
-padding: 0;}
+width: 150px;
+background-color : cadetblue;
+padding: 20px 50px 20px 50px;} 
+h2
+{text-align: right;
+background-color: crimson;}
+h1
+{background-color: darkgreen;}
