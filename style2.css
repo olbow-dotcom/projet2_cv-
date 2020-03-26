@@ -1,15 +1,19 @@
 header
 {display :flex;
-flex-direction: column;
-}
-.photo
-{ border: 10px rgb(254,210,48) solid; 
+height: 150px;}
+#photo
+{background-color :rgb(254,210,48);
+width:33%;
+;}
+#photo img
+{ padding: 2px 200px 2px 200px;
 border-radius: 50%;
-width: 150px;
-background-color : cadetblue;
-padding: 20px 50px 20px 50px;} 
+width:150px}
 h2
 {text-align: right;
-background-color: crimson;}
+background-color: green;
+width:33%-}
 h1
-{background-color: darkgreen;}
+{background-color:red;
+width: 33%;
+height: 
