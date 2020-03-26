@@ -1,28 +1,32 @@
 header
-{
-height: 200px;
+{display: flex;
+height: 200px;/*hauteur du header*/
 }
 figure
 {background-color :rgb(254,210,48);
 width:200px;
-margin:0;
+margin:0; /*propriétés bloc photo*/
 }
-figure img
+figure img /*proprietes photo rond et centré au bloc*/
 {border-radius: 50%;
 width: 140px;
 height: 140px;
 margin: 30px 30px 30px 30px;
 }
-p
+#titres
 { display: flex;
 flex-direction: column;
-margin-right: 210px;}
+margin-left: 20px;
+justify-content: center;}
 h2
 {height: 50px;
-background-color: green;
-}
+margin-left: 150px;
+padding: auto; 
+margin-top: 0;}
 h1
-{background-color:red;
- height:50px;}
-
+{ height:50px;
+padding:auto;
+margin-bottom:0}
+span
+{color: rgb(219,196,13);}
  
