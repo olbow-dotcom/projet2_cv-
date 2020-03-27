@@ -67,8 +67,29 @@ margin-top:5px;}
   height:35px;
  padding-bottom: 5px;}
  .loisirs
- {text-align:center;
+ {display: flex;
+  text-align:center;
   color: antiquewhite;
   background-color: blue;
   height:35px;
-  padding-bottom: 5px;}
+  }
+  .ecrire
+  {
+      width:50px;
+      background-color: coral;
+  }
+  .tout
+  {
+      width: 50px;
+      background-color: crimson;
+  }
+  .rugby
+  {
+      width: 50px;
+      background-color: darkgreen;
+  }
+  .coder
+  {
+      width: 50px;
+      background-color: darkslateblue;
+  }
