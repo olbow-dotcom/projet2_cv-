@@ -5,30 +5,28 @@ body
 header
 {display: flex;
 height: 200px;/*hauteur du header*/
-border: 3px blue dashed;}
+}
 figure
 {background-color :rgb(254,210,48);
-width:200px;
+width:250px;
 margin:0; /*propriétés bloc photo*/
 }
 figure img /*proprietes photo rond et centré au bloc*/
 {border-radius: 50%;
 width: 140px;
 height: 140px;
-margin: 30px 30px 30px 30px;
-}
+margin: center;}
 #titres
 { display: flex;
 flex-direction: column;
 margin-left:100px;
 justify-content: center;}
-h2
+.souligné
 {height: 50px;
 margin-left: 150px;
 padding: auto; 
-margin-top: 0;}
-.souligné
-{text-decoration: underline ;
+margin-top: 0;
+text-decoration: underline ;
 text-decoration-style: inherit;
 text-decoration-color: rgb(219,195,13);
 color:black }
@@ -41,21 +39,36 @@ span
 aside
 {display: flex;
 flex-direction:column;    
-width: 200px;
+width: 250px;
 height: 991px;
 background-color:rgb(254,210,48);
-margin: 0;} 
+margin: 0;}
 .contacts
-{display:flex;
-flex-direction: row;
-}
+{border:2px solid;
+margin-top:0;
+text-align:center;
+color: antiquewhite;
+background-color: blue;} 
 .mobile  
 {width:25px;
 height:25px;
 padding:0;
-margin:0px;}
+margin-top:5px;}
 .mail
 {width:25px;
  height:25px;
  padding:0;
- margin-left:5px;}
+ margin-left:5px;
+ margin-top: 5px;}
+.moi
+{text-align:center;
+ color: antiquewhite;
+ background-color: blue;
+  height:35px;
+ padding-bottom: 5px;}
+ .loisirs
+ {text-align:center;
+  color: antiquewhite;
+  background-color: blue;
+  height:35px;
+  padding-bottom: 5px;}
