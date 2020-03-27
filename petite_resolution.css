@@ -1,6 +1,12 @@
-@media screen and (min-width:992px and max-width:1024px)
+@media all and (min-width:992px) and (max-width:1024px)
 { header
     {
         width:auto;
+        
     }
 }
+ @media all and (min-width:768px )
+ {#titres  
+     { margin-left: 0px;
+        }
+ }
