@@ -40,7 +40,7 @@ aside
 {display: flex;
 flex-direction:column;    
 width: 250px;
-height: 991px;
+height: 1191px;
 background-color:rgb(254,210,48);
 margin: 0;}
 .contacts
@@ -67,29 +67,36 @@ margin-top:5px;}
   height:35px;
  padding-bottom: 5px;}
  .loisirs
- {display: flex;
-  text-align:center;
+ {  text-align:center;
   color: antiquewhite;
   background-color: blue;
   height:35px;
   }
+  #loisirs
+  {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color: rgb(254,210,48);
+  }
   .ecrire
   {
-      width:50px;
-      background-color: coral;
+      width:30px;
+      
   }
   .tout
   {
-      width: 50px;
-      background-color: crimson;
+      width: 30px;
+      ;
   }
   .rugby
   {
-      width: 50px;
-      background-color: darkgreen;
+      width: 30px;
+      
   }
   .coder
   {
-      width: 50px;
-      background-color: darkslateblue;
+      width: 30px;
   }
+      
+  
