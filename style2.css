@@ -16,12 +16,12 @@ figure img /*proprietes photo rond et centré au bloc*/
 width: 140px;
 height: 140px;
 margin: center;}
-#titres
+#titres /*propriétés du bloc des titres du CV (nom+emploi)*/ 
 { display: flex;
 flex-direction: column;
 margin-left:100px;
 justify-content: center;}
-.souligné
+.souligné /* soulignement de Dévé du mot développeur en jaune*/
 {height: 50px;
 margin-left: 150px;
 padding: auto; 
@@ -30,13 +30,13 @@ text-decoration: underline ;
 text-decoration-style: inherit;
 text-decoration-color: rgb(219,195,13);
 color:black }
-h1
+h1 /*reglages parametres du titre OLIVIER BOIREAU*/
 { height:50px;
 padding:auto;
 margin-bottom:0}
 span
-{color: rgb(219,196,13);}
-aside
+{color: rgb(219,196,13);} /*mise en jaune de OLIVIER dans le titre H1*/
+aside /*dimensionnement et reglages de la partie aside bande jaune sur la gauche du cv*/
 {display: flex;
 flex-direction:column;    
 width: 250px;
@@ -87,7 +87,6 @@ margin-top:5px;}
   .tout
   {
       width: 30px;
-      ;
   }
   .rugby
   {
