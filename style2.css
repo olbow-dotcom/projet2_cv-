@@ -1,101 +1,167 @@
 body
-{width :1100px;
-    margin: auto}
+{
+    width :1100px;
+    margin: auto
+}
 
 header
-{display: flex;
-height: 200px;/*hauteur du header*/
+{
+    display: flex;
+    height: 200px;/*hauteur du header*/
 }
 figure
-{background-color :rgb(254,210,48);
-width:250px;
-margin:0; /*propriétés bloc photo*/
+{
+    background-color :rgb(254,210,48);
+    width:250px;
+    margin:0; /*propriétés bloc photo*/
 }
 figure img /*proprietes photo rond et centré au bloc*/
-{border-radius: 50%;
-width: 140px;
-height: 140px;
-margin: center;}
+{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin: 30px 55px 30px 55px;
+}
 #titres /*propriétés du bloc des titres du CV (nom+emploi)*/ 
-{ display: flex;
-flex-direction: column;
-margin-left:100px;
-justify-content: center;}
+{ 
+    display: flex;
+    flex-direction: column;
+    margin-left:100px;
+    justify-content: center;
+}
 .souligné /* soulignement de Dévé du mot développeur en jaune*/
-{height: 50px;
-margin-left: 150px;
-padding: auto; 
-margin-top: 0;
-text-decoration: underline ;
-text-decoration-style: inherit;
-text-decoration-color: rgb(219,195,13);
-color:black }
+{
+    height: 50px;
+    margin-left: 150px;
+    padding: auto; 
+    margin-top: 0;
+    text-decoration: underline ;
+    text-decoration-style: inherit;
+    text-decoration-color: rgb(219,195,13);
+    color:black 
+}
 h1 /*reglages parametres du titre OLIVIER BOIREAU*/
-{ height:50px;
-padding:auto;
-margin-bottom:0}
+{ 
+    height:50px;
+    padding:auto;
+    margin-bottom:0
+}
 span
-{color: rgb(219,196,13);} /*mise en jaune de OLIVIER dans le titre H1*/
+{
+    color: rgb(219,196,13);
+} /*mise en jaune de OLIVIER dans le titre H1*/
 aside /*dimensionnement et reglages de la partie aside bande jaune sur la gauche du cv*/
-{display: flex;
-flex-direction:column;    
-width: 250px;
-height: 1191px;
-background-color:rgb(254,210,48);
-margin: 0;}
+{
+    display: flex;
+    flex-direction:column;    
+    width: 250px;
+    height: 1191px;
+    background-color:rgb(254,210,48);
+    margin: 0;  
+}
 .contacts
-{border:2px solid;
-margin-top:0;
-text-align:center;
-color: antiquewhite;
-background-color: blue;} 
+{
+    border:2px solid;
+    margin-top:0;
+    text-align:center;
+    color: antiquewhite;
+    background-color: blue;
+    height: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+} 
 .mobile  
-{width:25px;
-height:25px;
-padding:0;
-margin-top:5px;}
+{
+    width:25px;
+    height:30px;
+    text-align: right;
+    margin-top:5px;
+    float: left;
+}
 .mail
-{width:25px;
- height:25px;
- padding:0;
- margin-left:5px;
- margin-top: 5px;}
+{   
+    width:25px;
+    height:40px;
+    margin-left:5px;
+    margin-top: 5px;
+    float: left;
+}
+ .web
+{
+     margin-left:5px;   
+}
 .moi
-{text-align:center;
- color: antiquewhite;
- background-color: blue;
-  height:35px;
- padding-bottom: 5px;}
+{
+    text-align:center;
+    color: antiquewhite;
+    background-color: blue;
+    height:35px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+ .texte
+ {
+    text-align:justify;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(84, 79, 79); 
+ }
+ 
+ }
+ .p2
+ {
+     text-align: justify;
+     color: red;
+     padding-left: 5px;
+     padding-right: 5px ;
+ }
+ .p3
+ {
+     color:rgb(48,46,46);
+ }
+
  .loisirs
- {  text-align:center;
-  color: antiquewhite;
-  background-color: blue;
-  height:35px;
+ {  
+    text-align:center;
+    color: antiquewhite;
+    background-color: blue;
+    height:35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #general
+  {
+    display: flex;
+    flex-direction: column;
   }
   #loisirs
   {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      background-color: rgb(254,210,48);
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    background-color: rgb(254,210,48);
+    justify-content: space-around;
   }
   .ecrire
   {
-      width:30px;
-      
+    width:30px;
   }
   .tout
   {
-      width: 30px;
+    width: 30px;
   }
   .rugby
   {
-      width: 30px;
-      
+    width: 30px;
   }
   .coder
   {
-      width: 30px;
+    width: 30px;
   }
-      
+  #précisions
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }    
   

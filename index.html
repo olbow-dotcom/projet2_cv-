@@ -7,36 +7,59 @@
     <link rel="stylesheet" media="screen and(max-width:1024px)" href="petite_resolution.css"/>
     </head>
 <body>
-        <header>
+        <header><!--je mets ma photo et mes titres du cv en en-tete-->
             <figure>
                 <img src="moicv1.jpg" alt="moi" title="Olivier Boireau"/>
             </figure> 
             <div id="titres">
-                <h1> <span>OLIVIER</span> BOIREAU</h1>
+                <h1> <span>OLIVIER</span> BOIREAU</h1><!--je marque OLIVIER car sera en jaune-->
                 <h2><span class="souligné">Déve</span>loppeur <span>web</span> Freelance</h2>
-            </div>
+            </div><!--je marque Déve car sera souligné et web car sera en autre couleur-->
         </header>
 
-        <aside>
+        <aside><!--je remplis la colonne gauche du cv avec contact + a propos de moi+ loisirs -->
 
             <h2 class="contacts">contacts</h2>
-                <p><img class ="mobile"src="mobile-alt.svg" alt="icone-telephone"/>    0600000001</p>
-                
-                <p><img class= "mail"src="envelope.svg" alt="mail"/>                  Siempre@sfr.fr</p>
-                
-                <p>Site Web :<br/>www.dogweb.com</p>
+                <p><img class ="mobile"src="mobile-alt.svg" alt="icone-telephone"/><br> 0600000001</p>
+                <!--je mets icone "telephone"-->
+                <p><img class= "mail"src="envelope.svg" alt="mail"/><br/><a href="mailto:Siempre@sfr.fr">    Siempre@sfr.fr</a></p>
+                <!--je mets icone "mail"-->
+                <p class="web">Site Web :<br/><a href ="htpps://www.dogweb.com">www.dogweb.com</a></p>
             <h2 class="moi">à propos de moi</h2>
-            <p>On pense souvent qu’apprendre<br/> les nouveaux outils numériques<br/> est l’apanage des jeunes <br/>générations. Je prouve le <br/> contraire. Je pense que nous <br/>vivons une époque extraordinaire<br/> avec le développement du virtuel </br/>mais, il est important aussi de <br/>rappeler que ce n’est qu’un outil, <br/>et que son aspect positif ou<br/> négatif ne dépend que de la<br/> façon dont on l’utilise.<br/>
-                Pour ma part, je soutiens que<br/> l’utilisation des réseaux<br/> notamment, (internet, site web…)<br/> peut justement sortir les gens de<br/> leur isolement s’ils sont utilisés<br/> dans ce sens. Et que l’utilisation <br/>du virtuel peut permettre de<br/> développer plus facilement de<br/> liens sociaux en ayant à l’esprit<br/> que le réel(donc le physique)<br/>  doit etre intégré dans la réflexion :<br/> utiliser l’outil pour mieux se<br/> connaitre et toucher des<br/> personnes , lesquelles, sans<br/> l’outil, nous n’aurions même pas<br/> su l’existence.  Puis au-delà de<br/> cà, créer des rencontres réelles<br/> permettant de véritablement<br/> installer un réseau d’échanges<br/> sur différents domaines<br/> intéressants un même groupe<br/> d’individus. -->
-                </p>
+            <p class="texte">On pense souvent qu’apprendre les nouveaux outils numériques est l’apanage
+                des jeunes générations.</br>
+                Je prouve le  contraire. Je pense que nous vivons une époque extraordinaire avec le développement du virtuel mais,
+                il est important aussi de rappeler que ce n’est qu’un outil, et que son aspect positif
+                ou négatif ne dépend que de la façon dont on l’utilise.
+            </p>
+            <p class="p2">Pour ma part, je soutiens que l’utilisation des réseaux notamment,
+                (internet, site web…) peut justement sortir les gens de leur isolement
+                s’ils sont utilisés dans ce sens. Et que l’utilisation du virtuel
+                peut permettre de développer plus facilement
+                de liens sociaux en ayant à l’esprit que
+                le réel(donc le physique) doit etre intégré
+                dans la réflexion :<br/>utiliser l’outil pour mieux 
+                se connaitre et toucher des personnes , lesquelles, sans l’outil,
+                nous n’aurions même pas su l’existence.
+            </p>
+            <p class="p3"> 
+                Puis au-delà de cà, créer des rencontres réelles permettant de véritablement
+                installer un réseau d’échanges sur différents domaines intéressants un même groupe d’individus.</span> 
+            </p>
             <h2 class="loisirs">loisirs</h2>
-                <div id="loisirs">
-                <p><img class="ecrire"src="pen-alt.svg" alt="ecrire"/></p>
-                <p><img class= "tout" src="icons.svg" alt="tout"/></p>
-                <p><img class="rugby"src="football-ball.svg" alt="rugby"/></p>
-                <p><img class="coder"src="code.svg" alt="coder"></p>
+            <div id="general"><!-- cette div me permet d'avoir mes 2lignes suivantes (icones+précisions en colonne)-->
+                <div id="loisirs"><!--div pour poser les icone loisirs en ligne-->
+                    <p><img class="ecrire"src="pen-alt.svg" alt="ecrire"/></p>
+                    <p><img class= "tout" src="icons.svg" alt="tout"/></p>
+                    <p><img class="rugby"src="football-ball.svg" alt="rugby"/></p>
+                    <p><img class="coder"src="code.svg" alt="coder"></p></div>
+                <div id="précisions"><!--je mets les précisions sous les icones:signification, en ligne-->
+                    <p class="ecrire1">Ecrire</p>
+                    <p class="tout1">Musique,<br/> Photo...</p>
+                    <p class="rugby1">Rugby</p>
+                    <p class="coder1">Coder</p>
                 </div>
-
+            </div>
 
         </aside>
 
