@@ -171,5 +171,26 @@ aside /*dimensionnement et reglages de la partie aside bande jaune sur la gauche
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-  }    
+  }
+  section
+  {
+      display: flex;
+  }
+  main
+  {
+      margin-left: 100px;
+      color: rgb(254,210,48);
+  }
+  em
+  {
+      color:black;
+      
+  }
+  .puce
+  {
+      content:\229A;
+      font-size: 48px;
+      font-weight: 500;
+  }
   
+
