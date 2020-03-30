@@ -176,11 +176,16 @@ aside /*dimensionnement et reglages de la partie aside bande jaune sur la gauche
   {
       display: flex;
   }
+  #sections
+  {
+      background-color: rgb(244,244, 205) ;
+      display: flex;
+  }
   main
   {
       margin-left: 100px;
       color: black;
-      background-color: rgb(244,244, 205) ;
+      
   }
   em
   {
@@ -271,5 +276,5 @@ aside /*dimensionnement et reglages de la partie aside bande jaune sur la gauche
  }
  #recommandation
  {
-     width: 150%;
+     width: 100%;
  }
