@@ -186,11 +186,24 @@ aside /*dimensionnement et reglages de la partie aside bande jaune sur la gauche
       color:black;
       
   }
+  #icone
+  {
+      display:flex ;
+      flex-direction: column;
+  }
   .puce
   {
-      content:\229A;
-      font-size: 48px;
-      font-weight: 500;
+      background-color: rgb(254,210,48);
+      width: 35%;
   }
-  
+  .point
+  {
+      background-color: salmon;
+      width:35%;
+      padding-left: 5px;
+  }
+  td
+  {
+      
+  }
 
