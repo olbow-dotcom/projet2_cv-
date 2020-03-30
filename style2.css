@@ -179,7 +179,7 @@ aside /*dimensionnement et reglages de la partie aside bande jaune sur la gauche
   main
   {
       margin-left: 100px;
-      color: rgb(254,210,48);
+      color: black
   }
   em
   {
@@ -188,22 +188,35 @@ aside /*dimensionnement et reglages de la partie aside bande jaune sur la gauche
   }
   #icone
   {
-      display:flex ;
-      flex-direction: column;
-  }
+    display:flex;
+    flex-direction: column;   
+    width: 150%;
+  }    
   .puce
   {
       background-color: rgb(254,210,48);
       width: 35%;
+      display: row;
+  }
+  #mouche
+  {
+      display: flex;
+      width: 150%;
+      flex-direction: column;
   }
   .point
   {
       background-color: salmon;
-      width:35%;
+      width:205px;
       padding-left: 5px;
+      display: row;
   }
-  td
+  #formateur
   {
-      
+      width:150%;
+      display:flex;
+      flex-direction: row;
   }
-
+  .point1
+  
+      
