@@ -129,6 +129,12 @@ p
      margin-top:0;
      
  }
+ #web
+ {
+     font-weight: bold;
+     text-decoration: underline;
+     color: black;
+ }
  .p3
  {
      text-align: justify;
@@ -249,6 +255,7 @@ p
   #rubrique1
  {
      display: flex;
+     border-bottom : groove rgb(254,210,48) ;
  }
  h2
  {
@@ -263,6 +270,7 @@ p
  #rubrique2
  {
      display:flex;
+     border-bottom : groove rgb(254,210,48) ;
  }
  h2
  {
@@ -277,6 +285,8 @@ p
  #rubrique3
  {
      display:flex;
+     border-bottom : groove rgb(254,210,48) ;
+     margin-bottom: 40px;
  }
  h2
  {
