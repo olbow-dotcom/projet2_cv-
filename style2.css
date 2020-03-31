@@ -28,6 +28,11 @@ figure img /*proprietes photo rond et centré au bloc*/
     flex-direction: column;
     margin-left:100px;
     justify-content: center;
+    
+}
+header
+{
+    background-color:rgb(244,244, 205)  ;
 }
 .souligné /* soulignement de Dévé du mot développeur en jaune*/
 {
@@ -63,6 +68,7 @@ aside /*dimensionnement et reglages de la partie aside bande jaune sur la gauche
 {
     border:2px solid;
     margin-top:0;
+    margin-bottom: 0;
     text-align:center;
     color: antiquewhite;
     background-color: blue;
@@ -70,6 +76,11 @@ aside /*dimensionnement et reglages de la partie aside bande jaune sur la gauche
     padding-top: 5px;
     padding-bottom: 5px;
 } 
+p
+{
+    margin-bottom:5px;
+    margin-top:0;
+}
 .mobile  
 {
     width:25px;
@@ -149,6 +160,7 @@ aside /*dimensionnement et reglages de la partie aside bande jaune sur la gauche
     width: 250px;
     background-color: rgb(254,210,48);
     justify-content: space-around;
+    margin-top: 25px;
   }
   .ecrire
   {
@@ -171,6 +183,7 @@ aside /*dimensionnement et reglages de la partie aside bande jaune sur la gauche
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 15px;
   }
   section
   {
@@ -218,6 +231,7 @@ aside /*dimensionnement et reglages de la partie aside bande jaune sur la gauche
       padding-left: 5px;
       display: row;
   }
+
   #formateur
   {
       width:150%;
