@@ -1,304 +1,332 @@
 body
 {
     width :1100px;
-    margin: auto
-}
-
-header
-{
-    display: flex;
-    height: 200px;/*hauteur du header*/
-}
-figure
-{
-    background-color :rgb(254,210,48);
-    width:250px;
-    margin:0; /*propriétés bloc photo*/
-}
-figure img /*proprietes photo rond et centré au bloc*/
-{
-    border-radius: 50%;
-    width: 140px;
-    height: 140px;
-    margin: 30px 55px 30px 55px;
-}
-#titres /*propriétés du bloc des titres du CV (nom+emploi)*/ 
-{ 
-    display: flex;
-    flex-direction: column;
-    margin-left:100px;
-    justify-content: center;
     
 }
-header
-{
-    background-color:rgb(244,244, 205)  ;
-}
-.souligné /* soulignement de Dévé du mot développeur en jaune*/
-{
-    height: 50px;
-    margin-left: 150px;
-    padding: auto; 
-    margin-top: 0;
-    text-decoration: underline ;
-    text-decoration-style: inherit;
-    text-decoration-color: rgb(219,195,13);
-    color:black 
-}
-h1 /*reglages parametres du titre OLIVIER BOIREAU*/
-{ 
-    height:50px;
-    padding:auto;
-    margin-bottom:0
-}
-span
-{
-    color: rgb(219,196,13);
-} /*mise en jaune de OLIVIER dans le titre H1*/
-aside /*dimensionnement et reglages de la partie aside bande jaune sur la gauche du cv*/
-{
-    display: flex;
-    flex-direction:column;    
-    width: 250px;
-    height: 1191px;
-    background-color:rgb(254,210,48);
-    margin: 0;  
-}
-.contacts
-{
-    border:2px solid;
-    margin-top:0;
-    margin-bottom: 0;
-    text-align:center;
-    color: antiquewhite;
-    background-color: blue;
-    height: 35px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-} 
-p
-{
-    margin-bottom:5px;
-    margin-top:0;
-}
-.mobile  
-{
-    width:25px;
-    height:30px;
-    text-align: right;
-    margin-top:5px;
-    float: left;
-}
-.mail
-{   
-    width:25px;
-    height:40px;
-    margin-left:5px;
-    margin-top: 5px;
-    float: left;
-}
- .web
-{
-     margin-left:5px;   
-}
-.moi
-{
-    text-align:center;
-    color: antiquewhite;
-    background-color: blue;
-    height:35px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-}
- .texte
- {
-    text-align:justify;
-    padding-left: 5px;
-    padding-right: 5px;
-    color: rgb(99, 98, 107);
-    margin-top: 0; 
- }
+
+    header
+        {   background-color:rgb(244,244, 205)  ;
+            display: flex;
+            height: 200px;/*hauteur du header*/
+        }
+        figure
+            {
+                background-color :rgb(254,210,48);
+                 width:250px;
+                margin:0; /*propriétés bloc photo*/
+            }
+        figure img /*proprietes photo rond et centré au bloc*/
+            {
+                border-radius: 50%;
+                width: 140px;
+                height: 140px;
+                margin: 30px 55px 30px 55px;
+            }
+        #titres /*propriétés du bloc des titres du CV (nom+emploi)*/ 
+            { 
+                display: flex;
+                flex-direction: column;
+                margin-left:100px;
+                justify-content: center;
+                width:750px;
+    
+            }
+    
+
+            .souligné /* soulignement de Dévé du mot développeur en jaune*/
+                {
+                    height: 50px;
+                    margin-left: 150px;
+                    padding: auto; 
+                    margin-top: 0;
+                    text-decoration: underline ;
+                    text-decoration-style: inherit;
+                    text-decoration-color: rgb(219,195,13);
+                    color:black 
+             }
+        h1 /*reglages parametres du titre OLIVIER BOIREAU*/
+            { 
+                height:50px;
+                padding:auto;
+                margin-bottom:0
+            }
+            span
+                {
+                    color: rgb(219,196,13);
+                } /*mise en jaune de OLIVIER dans le titre H1*/
+
+    header
+
+    section
+        {
+        display: flex;
+        
+        }
+
+
+        aside /*dimensionnement et reglages de la partie aside bande jaune sur la gauche du cv*/
+            {
+                display: flex;
+                flex-direction:column;    
+                width: 250px;
+                background-color:rgb(254,210,48);
+                margin-right: 0;
+            }
+                .contacts /*mise en place du titre "contact"  (titre dans aside*/
+                {    
+                    margin-bottom: 0;
+                    text-align:center;
+                    color: antiquewhite;
+                    background-color: blue;
+                    height: 35px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                } 
+                p /* centrage des differents icones et referencez"contacts de La rubrique "contacts dans aside*/
+            
+                {
+                    margin-top:0;
+                    margin-bottom:5px;
+                    margin-top:0;
+                }
+                .mobile  /*positionnement et redimmensionnement de l'icone mobile*/
+                {
+                    width:25px;
+                    height:30px;
+                    text-align: right;
+                    margin-top:5px;
+                    float: left;
+                }
+                .mail /*positionnement et redimmensionnement de l'icone "mail"*/
+                {   
+                    width:25px;
+                    height:40px;
+                    margin-left:5px;
+                    margin-top: 5px;
+                    float: left;
+                }
+                .web /*centrage du lien web*/
+                {
+                    margin-left:5px;   
+                }
+                .moi /* mise en forme du titre " "à propos de moi" daans a side*/
+                {
+                text-align:center;
+                color: antiquewhite;
+                background-color: blue;
+                height:35px;
+                padding-bottom: 5px;
+                padding-top: 5px;
+                }
+                .texte /* 1er paragraphe de 'a propos de moi" avec couleur differente* et mise en page dans aside*/ 
+                {  
+                text-align:justify;
+                padding-left: 5px;
+                padding-right: 5px;
+                color: rgb(99, 98, 107);
+                margin-top: 0; 
+                }
  
  
- .p2
- {
-     text-align: justify;
-     color: rgb(68, 64, 109);
-     padding-left: 5px;
-     padding-right: 5px ;
-     margin-top:0;
+                .p2/* 2eme paragraphe de 'a propos de moi" avec couleur differente* et mise en page dans aside*/
+                {
+                text-align: justify;
+                color: rgb(68, 64, 109);
+                padding-left: 5px;
+                padding-right: 5px ;
+                margin-top:0;
      
- }
- #web
- {
-     font-weight: bold;
-     text-decoration: underline;
-     color: black;
- }
- .p3
- {
-     text-align: justify;
-     color: rgb(4, 9, 48);
-     padding-left: 5px;
-     padding-right: 5px; 
-     margin-top:0px;
-     margin-bottom:0;
- }
+                }
+                #web /* mise en gras et souligné et chagement de couleur pour "votre site web dans le texte aside*/
+                {
+                font-weight: bold;
+                text-decoration: underline;
+                color: rgb(242, 92, 0)
+                }
+                .p3/* 3eme paragraaphe de 'a propos de moi" avec couleur differente* et mise en page dans aside */
+                {
+                text-align: justify;
+                color: rgb(4, 9, 48);
+                padding-left: 5px;
+                padding-right: 5px; 
+                margin-top:0px;
+                margin-bottom:0;
+                }
 
- .loisirs
- {  
-    text-align:center;
-    color: antiquewhite;
-    background-color: blue;
-    height:35px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-  #general
-  {
-    display: flex;
-    flex-direction: column;
-  }
-  #loisirs
-  {
-    display: flex;
-    flex-direction: row;
-    width: 250px;
-    background-color: rgb(254,210,48);
-    justify-content: space-around;
-    margin-top: 25px;
-  }
-  .ecrire
-  {
-    width:30px;
-  }
-  .tout
-  {
-    width: 30px;
-  }
-  .rugby
-  {
-    width: 30px;
-  }
-  .coder
-  {
-    width: 30px;
-  }
-  #précisions
-  {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 15px;
-  }
-  section
-  {
-      display: flex;
-  }
-  #sections
-  {
-      background-color: rgb(244,244, 205) ;
-      display: flex;
-  }
-  main
-  {
-      margin-left: 100px;
-      color: black;
-      
-  }
-  em
-  {
-      color:black;
-      
-  }
-  #icone
-  {
-    display:flex;
-    flex-direction: column;   
-    width: 150%;
-    margin-bottom: 30px;
-    margin-top: 50px;
-  }    
-  .puce
-  {
-      width: 210px;
-      display: row;
-  }
-  #mouche
-  {
-      display: flex;
-      width: 150%;
-      flex-direction: column;
-      margin-bottom: 30px;
-  }
-  .point
-  {
-      width:205px;
-      padding-left: 5px;
-      display: row;
-  }
+                .loisirs /*mise en place et en forma du titre dans aside*/
+                {  
+                text-align:center;
+                color: antiquewhite;
+                background-color: blue;
+                height:35px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                }
+                 #general /*div pour mettre en colonne loisirs et description*/
+                    {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                     #loisirs/*formatage du bloc loisirs*/
+                        {
+                            display: flex;
+                            flex-direction: row;
+                            width: 250px;
+                            background-color: rgb(254,210,48);
+                            justify-content: space-around;
+                            margin-top: 25px;
+                        }
+                     #précisions /*formatage de la signification des icones loisirs*/
+                        {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-around;
+                            margin-top: 15px;
+                        }
 
-  #formateur
-  {
-      width:150%;
-      display:flex;
-      flex-direction: row;
-      margin-bottom: 80px;
-  }
-  .point1
-  {
-      width:205px;
-      padding-left:5px ;
-      display:row;
-  }
+
   
-  #rubrique1
- {
-     display: flex;
-     border-bottom : groove rgb(254,210,48) ;
- }
- h2
- {
+                    .ecrire /*icone stylo 'écrire'*/
+                    {
+                    width:30px;
+                    }
+
+                    .tout /*icone musique phohot*/
+                    {
+                    width:30px;
+                    }
+  
+                    .rugby /*icone rugby*/
+                    {
+                    width:30px;
+                    }
+  
+                    .coder /*icone coder*/
+                    {
+                    width:30px;
+                    }
+  
+  
+        article
+            
+  
+            {
+      
+                display: flex;
+                flex-direction: column;
+                padding-left: 100px;
+                width: 750px;
+                background-color:rgb(244,244, 205);
+                margin-left: 251px;
+                margin-top: 0;
+            }
+    
+                em
+                    {
+                    color:black;
+      
+                    }
+            #rubrique1
+                {
+                display: flex;
+                border-bottom : groove rgb(254,210,48) ;
+                }
+                h2
+                {
+                height: 30px; 
+                vertical-align: middle;
+                line-height: 30px;
+                }
+             #icone
+                {
+                display:flex;
+                flex-direction: column;   
+                width: 150%;
+                margin-bottom: 30px;
+                margin-top: 50px;
+                 } 
+                .experience
+                 {
+                  margin-top: 0;
+                 }    
+                .puce
+                {
+                width: 210px;
+                display: row;
+                }
+            #mouche
+                {
+                display: flex;
+                width: 150%;
+                flex-direction: column;
+                margin-bottom: 30px;
+                }
+                .point
+                {
+                width:205px;
+                padding-left: 5px;
+                display: row;
+                }
+
+            #formateur
+                {
+                width:150%;
+                display:flex;
+                flex-direction: row;
+                margin-bottom: 80px;
+                }
+                .point1
+                {
+                 width:205px;
+                padding-left:5px ;
+                display:row;
+                }
+  
+             #rubrique2
+                {
+                display:flex;
+                border-bottom : groove rgb(254,210,48) ;
+                }
+            h2
+                {
+                height: 30px; 
+                vertical-align: middle;
+                line-height: 30px;
+                }
+    
+            .experience
+                {
+                 margin-top: 0;
+                }
+    h2
+    {
     height: 30px; 
     vertical-align: middle;
     line-height: 30px;
- }
- .experience
- {
+    }
+    .formation
+    {
      margin-top: 0;
- }
- #rubrique2
- {
-     display:flex;
-     border-bottom : groove rgb(254,210,48) ;
- }
- h2
- {
-    height: 30px; 
-    vertical-align: middle;
-    line-height: 30px;
- }
- .formation
- {
-     margin-top: 0;
- }
- #rubrique3
- {
+     }
+    #rubrique3
+    {
      display:flex;
      border-bottom : groove rgb(254,210,48) ;
      margin-bottom: 40px;
- }
- h2
- {
+    }
+    h2
+    {
     height: 30px; 
     vertical-align: middle;
     line-height: 30px;
- }
- .recommandations
- {
+     }
+    .recommandations
+    {
      margin-top: 0;
- }
- #recommandation
- {
+    }
+    #recommandation
+    {
      width: 100%;
- }
+    }
+
+ 
