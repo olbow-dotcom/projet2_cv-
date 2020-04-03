@@ -87,9 +87,9 @@ body
                     color: antiquewhite;
                     background-color: blue;
                     height: 35px;
-                    padding-top: 5px;
                     padding-bottom: 5px;
                     padding-left: 0px;
+                    margin-top: 0;
                 } 
                 
                 .mobile  /*positionnement et redimmensionnement de l'icone mobile*/
@@ -121,7 +121,7 @@ body
                 background-color: blue;
                 height:35px;
                 padding-bottom: 5px;
-                padding-top: 5px;
+                margin-top: 0;
                 }
                 .texte /* 1er paragraphe de 'a propos de moi" avec couleur differente* et mise en page dans aside*/ 
                 {  
@@ -392,6 +392,10 @@ body
     {
         margin-left: 0;
     }
-
-
+    article
+    {
+        width:auto;
+        font-size:0.5em;
+    }
+     
 }
