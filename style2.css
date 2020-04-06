@@ -214,18 +214,17 @@ body
                     
   
   
-        article
-            
+        .cvexperience
+        
   
             {
       
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
                 padding-left: 100px;
                 width: 750px;
                 background-color:rgb(244,244, 205);
-                
-                margin-top: 0;
+                                margin-top: 0;
             }
     
                 em
@@ -369,7 +368,7 @@ body
     }
     .mobile
     {
-        margin: center;
+        margin: auto;
     }
     aside > #contacts1
     
@@ -395,7 +394,7 @@ body
     article
     {
         width:auto;
-        font-size:0.5em;
+        font-size:0,5em
     }
      
 }
