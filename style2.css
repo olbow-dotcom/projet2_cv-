@@ -8,6 +8,7 @@ body
     header
         {   background-color:rgb(244,244, 205)  ;
             display: flex;
+            flex-direction: row;
             height: 200px;/*hauteur du header*/
         }
         figure
@@ -79,7 +80,7 @@ body
                     display:flex;
                     flex-direction: column;
                     padding-left: ;
-                                  }
+                }
                 .contacts /*mise en place du titre "contact"  (titre dans aside*/
                 {    
                     margin-bottom: 0;
@@ -220,120 +221,66 @@ body
             {
       
                 display: flex;
-                flex-direction: row;
+                border-bottom : groove rgb(254,210,48) ;
+                flex-direction: column;
                 padding-left: 100px;
                 width: 750px;
                 background-color:rgb(244,244, 205);
-                                margin-top: 0;
-            }
+                margin-top: 0;
+                margin-left: 250px;   
+              }
     
                 em
                     {
                     color:black;
       
                     }
-            #rubrique1
-                {
-                display: flex;
-                border-bottom : groove rgb(254,210,48) ;
-                }
+                
                 h2
                 {
                 height: 30px; 
                 vertical-align: middle;
                 line-height: 30px;
                 }
-             #icone
+            .cvexperience>.experience
                 {
                 display:flex;
-                flex-direction: column;   
+                flex-direction: row;   
                 width: 150%;
                 margin-bottom: 30px;
                 margin-top: 50px;
                  } 
-                .experience
+            .cvexperience>.mouche
                  {
-                  margin-top: 0;
+                  display: flex;
+                  flex-direction: row;
+                  width: 150%;
+                  margin-bottom: 30px;
+                  margin-top: 50px;
+                  
                  }    
                 .puce
                 {
-                width: 210px;
+                
                 display: row;
                 }
-            #mouche
+            .cvexperience>.formateur
                 {
                 display: flex;
                 width: 150%;
-                flex-direction: column;
+                flex-direction: row;
                 margin-bottom: 30px;
                 }
-                .point
-                {
-                width:205px;
-                padding-left: 5px;
-                display: row;
-                }
+             main
+             {
+                 display:flex;
+                 flex-direction: row;
+             }   
 
-            #formateur
-                {
-                width:150%;
-                display:flex;
-                flex-direction: row;
-                margin-bottom: 80px;
-                }
-                .point1
-                {
-                 width:205px;
-                padding-left:5px ;
-                display:row;
-                }
-  
-             #rubrique2
-                {
-                display:flex;
-                border-bottom : groove rgb(254,210,48) ;
-                }
-            h2
-                {
-                height: 30px; 
-                vertical-align: middle;
-                line-height: 30px;
-                }
+            
+             
     
-            .experience
-                {
-                 margin-top: 0;
-                }
-    h2
-    {
-    height: 30px; 
-    vertical-align: middle;
-    line-height: 30px;
-    }
-    .formation
-    {
-     margin-top: 0;
-     }
-    #rubrique3
-    {
-     display:flex;
-     border-bottom : groove rgb(254,210,48) ;
-     margin-bottom: 40px;
-    }
-    h2
-    {
-    height: 30px; 
-    vertical-align: middle;
-    line-height: 30px;
-     }
-    .recommandations
-    {
-     margin-top: 0;
-    }
-    #recommandation
-    {
-     width: 100%;
-    }
+    
 
 @media screen and (max-width: 768px)
 {   
