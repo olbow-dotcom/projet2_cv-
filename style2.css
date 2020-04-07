@@ -14,7 +14,7 @@ body
         figure
             {
                 background-color :rgb(254,210,48);
-                 width:250px;
+                width:250px;
                 margin:0; /*propriétés bloc photo*/
             }
         figure img /*proprietes photo rond et centré au bloc*/
@@ -28,8 +28,7 @@ body
             { 
                 display: flex;
                 flex-direction: column;
-                margin-left:100px;
-                justify-content: center;
+                margin-left:50px;
                 width:750px;
     
             }
@@ -38,28 +37,26 @@ body
             .souligné /* soulignement de Dévé du mot développeur en jaune*/
                 {
                     height: 50px;
-                    margin-left: 150px;
-                    padding: auto; 
                     margin-top: 0;
                     text-decoration: underline ;
-                    text-decoration-style: inherit;
                     text-decoration-color: rgb(219,195,13);
-                    color:black 
+                    color:black; 
+                    
              }
         h1 /*reglages parametres du titre OLIVIER BOIREAU*/
             { 
                 height:50px;
                 padding:auto;
-                margin-bottom:0
+                margin-bottom:0;
             }
             span
                 {
                     color: rgb(219,196,13);
                 } /*mise en jaune de OLIVIER dans le titre H1*/
-
+            
     
 
-    section
+    main
         {
         display: flex;
         flex-direction: row;
@@ -75,11 +72,12 @@ body
                 margin-right: 0;
             }
 
-                #contacts1
+                #contacts1>p
                 {
                     display:flex;
                     flex-direction: column;
-                    padding-left: ;
+                    padding-left: 30px;
+                    padding-right: 30px; 
                 }
                 .contacts /*mise en place du titre "contact"  (titre dans aside*/
                 {    
@@ -89,8 +87,10 @@ body
                     background-color: blue;
                     height: 35px;
                     padding-bottom: 5px;
-                    padding-left: 0px;
+                    margin-left: 0px;
+                    margin-right: 0;
                     margin-top: 0;
+                    
                 } 
                 
                 .mobile  /*positionnement et redimmensionnement de l'icone mobile*/
@@ -213,126 +213,115 @@ body
                         }
   
                     
-  
-  
+        article
+        {
+            display:flex;
+            flex-direction: column;
+            padding-left: 50px ;
+        }
+        i
+
+        {
+            color: rgb(165, 164, 120);
+
+        }
         .cvexperience
-        
-  
-            {
-      
-                display: flex;
-                border-bottom : groove rgb(254,210,48) ;
-                flex-direction: column;
-                padding-left: 100px;
-                width: 750px;
-                background-color:rgb(244,244, 205);
-                margin-top: 0;
-                margin-left: 250px;   
-              }
-    
-                em
-                    {
-                    color:black;
-      
-                    }
-                
-                h2
-                {
-                height: 30px; 
-                vertical-align: middle;
-                line-height: 30px;
-                }
-            .cvexperience>.experience
-                {
-                display:flex;
-                flex-direction: row;   
-                width: 150%;
-                margin-bottom: 30px;
-                margin-top: 50px;
-                 } 
-            .cvexperience>.mouche
-                 {
-                  display: flex;
-                  flex-direction: row;
-                  width: 150%;
-                  margin-bottom: 30px;
-                  margin-top: 50px;
-                  
-                 }    
-                .puce
-                {
-                
-                display: row;
-                }
-            .cvexperience>.formateur
-                {
-                display: flex;
-                width: 150%;
-                flex-direction: row;
-                margin-bottom: 30px;
-                }
-             main
-             {
-                 display:flex;
-                 flex-direction: row;
-             }   
+        {
+            margin-bottom: 90px;
+        }
 
+        .experience
+        {
+            display:flex;
+            flex-direction: row;
+            padding-left: 0;
             
-             
-    
-    
-
-@media screen and (max-width: 768px)
-{   
-    
-    section 
-    {
-        flex-direction: column;
-    }
-    aside
-    {
-        width: auto;
+        }
         
-    }
-    article
-    {
-        width:auto;
-        padding-left: 5px;
-    }
+        .puce
+        {
+            margin-left: 0;
+            width: 160px;
+        }
+        .mouche
+        {
+            display:flex;
+            flex-direction :row;
+            padding-left: 0;
 
-    body
-    {
-        width: 100%;
-    }
-    #loisirs
-    {
-        justify-content: space-around;
-    }
-    
-    .souligné
-    {
-        margin-left: 0;
-    }
-    .mobile
-    {
-        margin: auto;
-    }
-    aside > #contacts1
-    
-    
-    {order:2;} 
-    
-    aside > #moi:nth-child(2)
-    {
-        order:1;
-    }
-    aside> #general
-    {
-        order:3;
-    }
+        }
+        .point
+        {
+            margin-left: 0;
+            width: 160px;
+            padding-left: 4px;
 
-}  
-@media screen and (max-width:643px)
+        }
+        .cvformation
+        {
+            margin-bottom: 90px;
+        }
+
+        h2
+        {
+            text-decoration: ;
+        }
+
+
+         .formateur
+        {
+            display: flex;
+            flex-direction: row;
+            padding-left: 0;
+        }
+        .point1
+        {
+            margin-left: 0;
+            width: 160px;
+            padding-left: 4px;
+        }
+        .icone
+        {
+            display:flex;
+            flex-direction: row;
+            padding-left: 0;
+        }
+
+        .recommandation
+        {
+            display: flex;
+            flex-direction: row;
+            padding-left:0;
+            justify-content: space-around;
+
+        }
+        .fa-mobile-alt, .fa-at
+        {
+            color: rgb(73, 71, 11);
+        }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+@media screen and (max-width:300px)
 {
     #titres
     {
