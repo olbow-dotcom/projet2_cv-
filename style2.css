@@ -102,27 +102,18 @@ body
                     padding-right: 0;
                 } 
                 
-                .mobile  /*positionnement et redimmensionnement de l'icone mobile*/
-                {
-                    height:30px;
-                    text-align: right;
-                    margin-top:5px;
-                    margin-left:2px;
-                    float: left;
+                
+                #contacts1>p
+                 {
+                    
+                    display: flex;
+                    flex-direction: row;
+                                    
                 }
-                .mail /*positionnement et redimmensionnement de l'icone "mail"*/
-                {   
-                    width:25px;
-                    height:40px;
-                    margin-left:5px;
-                    margin-top: 5px;
-                    float: left;
-                }
-                .web /*centrage du lien web*/
+                #contacts1>p>i
                 {
-                    margin-left: 5px; 
-                    margin-top: 5px;
-                      
+                    color: rgb(96, 75, 17)
+
                 }
                 .moi /* mise en forme du titre " "à propos de moi" daans a side*/
                 {
@@ -316,10 +307,7 @@ body
             justify-content: space-around;
 
         }
-        .fa-mobile-alt, .fa-at
-        {
-            color: rgb(73, 71, 11);
-        }
+        
         
 
 
