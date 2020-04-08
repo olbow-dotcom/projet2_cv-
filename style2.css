@@ -103,13 +103,9 @@ body
                 } 
                 
                 
-                #contacts1>p
-                 {
-                    
-                    display: flex;
-                    flex-direction: row;
+                
                                     
-                }
+                
                 #contacts1>p>i
                 {
                     color: rgb(96, 75, 17)
@@ -330,16 +326,21 @@ body
 
 
   
-@media screen and (max-width:300px)
+@media screen and (max-width:425px)
 {
-    #titres
-    {
-        margin-left: 0;
-    }
-    article
+    body 
     {
         width:auto;
-        font-size:0,5em
     }
+
+   
+    header
+    {
+        
+        flex-direction: column;
+    }  
+    
+
+
      
 }
