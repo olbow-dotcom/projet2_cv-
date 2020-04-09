@@ -437,12 +437,135 @@ body
     {
         display:none;
     }
-    div p
+    
+    #contacts1 p  
+        {   width: 240px;
+            margin:auto 
+        
+        }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:767px) 
+
+{   
+    
+    
+    
+    header
+    {    
+        display:flex;   
+        flex-direction: column-reverse;
+        height: auto;
+        width: auto;
+    }
+    header >figure 
+    {
+        margin: auto;
+    }
+    figure
+     {
+        background-color:rgb(244,244, 205) ;
+    }
+    header > #titres
+    {
+        margin: auto;
+    }
+        
+    }
+    .experience
+    {
+        flex-direction: column;
+    }
+    .icone
+    {
+        flex-direction: column;
+    }
+    .mouche
+    {
+        flex-direction: column;
+    } 
+    .formateur
+    {
+        flex-direction: column;
+    }
+    figure>img
     {
         
-        widn
-
+        margin-left:auto;
+        margin-right:auto;
     }
+    .recommandation
+    {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    main
+        {
+            flex-direction: column;
+            
+        }
+    aside
+    {
+        width: auto;
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        height: 100%;
+    }
+        
+    
+    article
+    {
+        width:100%;
+        
+    }
+    
+        
+    .moi
+    {
+        padding-top: 0;
+        
+    }
+    aside > #contacts1
+    
+    
+    {order:2;} 
+    
+    aside > #general
+
+    {
+        order:3;
+    }
+    aside > #moitxt:nth-child(2)
+    {
+        order:1;
+    }
+    #mitext
+    {
+    margin-right: 50px ;    
+    }
+    #general
+    {
+        display:none;
+    }
+    #moitext p
+    {
+        width: 450px;
+        margin: auto;
+        font-size:1.5em;
+        height: auto;
+        padding:0;
+        margin-left: 406,5px;
+        margin-right: 406,5px; 
+    }
+    
     #contacts1 p  
         {   width: 240px;
             margin:auto 
