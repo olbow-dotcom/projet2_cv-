@@ -303,7 +303,10 @@ body
             justify-content: space-around;
 
         }
-        
+        .contacts 
+        {
+            width:auto;
+        }
         
 
 
@@ -333,23 +336,29 @@ body
     
     header
     {    
-        display:block;   
+        display:flex;   
         flex-direction: column;
         height: auto;
-        
+        width: auto;
+    }
+    header >figure 
+    {
+        margin: auto;
     }
     figure
+     {
+        background-color:rgb(244,244, 205) ;
+    }
+    header > #titres
     {
-        
-        display:flex;
-        width: auto;
-        
+        margin: auto;
     }
     #titres
     {
         display:flex;
         width: auto;
-        text-align: center;
+        margin:auto;
+        
     }
     .experience
     {
@@ -386,32 +395,57 @@ body
     aside
     {
         width: auto;
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        height: 100%;
+    }
+        
     }
     article
     {
         width:100%;
+        
     }
     
-    #moitext > .texte:nth-child(1)
+        
+    .moi
     {
-        order:2;
+        padding-top: 0;
+        
     }
-    #moitext > .p2:nth-child(2)
+    aside > #contacts1
+    
+    
+    {order:2;} 
+    
+    aside > #general
+
+    {
+        order:3;
+    }
+    aside > #moitxt:nth-child(2)
     {
         order:1;
     }
-    #moitext > .p3:nth-child(3)
+    #mitext
     {
-        order: 3;
+    margin-right: 50px ;    
     }
+    #general
+    {
+        display:none;
+    }
+    div p
+    {
+        
+        widn
 
-
-
-
-
-
-
-
-
-
+    }
+    #contacts1 p  
+        {   width: 240px;
+            margin:auto 
+        
+        }
 }
