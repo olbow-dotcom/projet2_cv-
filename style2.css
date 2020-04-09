@@ -307,27 +307,6 @@ body
         {
             width:auto;
         }
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
 @media screen and (min-width:768px) and (max-width:1024px)
 {   
@@ -445,12 +424,6 @@ body
         }
 }
 
-
-
-
-
-
-
 @media screen and (max-width:767px) 
 
 {   
@@ -562,8 +535,8 @@ body
         font-size:1.5em;
         height: auto;
         padding:0;
-        margin-left: 406,5px;
-        margin-right: 406,5px; 
+        margin-left: 406px;
+        margin-right: 406px; 
     }
     
     #contacts1 p  
