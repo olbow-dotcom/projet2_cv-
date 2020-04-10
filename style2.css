@@ -429,8 +429,10 @@ body
     
     #contacts1 p  
         {   width: 240px;
-            margin:auto 
-        
+            margin:auto ;
+            text-align:center;
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
         }
 }
 
@@ -550,7 +552,6 @@ body
     {
         width: 452px;
         margin: auto;
-        font-size:1.5em;
         height: auto;
         padding:0;
          
