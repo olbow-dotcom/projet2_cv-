@@ -1,7 +1,10 @@
-body
+#bloc-page
+ 
 {
     max-width:1100px;
     border:solid;
+    margin:auto;
+    
     }
 /*mise en forme du header*/
 
@@ -73,12 +76,14 @@ body
     width: 1100px;
     display: flex;
     flex-direction: row;
+    padding:0;
+    margin:0;
     }
         aside /*dimensionnement et reglages de la partie aside bande jaune sur la gauche du cv*/
             {
                 display: flex;
                 flex-direction:column;    
-                width: 250px;
+                width:250px;
                 background-color:rgb(254,210,48);
             }
 
@@ -108,6 +113,11 @@ body
                 #moitext
                 {
                     display:flex;
+                    flex-direction: column;
+                }
+                #paragraphes
+                {
+                    display: flex;
                     flex-direction: column;
                 }
                 .moi /* mise en forme du titre " "à propos de moi" daans a side*/
@@ -221,6 +231,7 @@ body
             padding-left: 50px ;
             background-color:rgb(244,244, 205) ;
             width:800px;
+            
         }
         i
 
@@ -229,7 +240,7 @@ body
 
         }
 
-        h2
+        article>section>h2
         {
             margin-right: 0;
         }
@@ -314,11 +325,11 @@ body
   
 @media screen and (min-width:769px) and (max-width:1024px)
 {   
-    body 
+    #bloc-page 
     {
-        max-width:1024px;
-    }
-    
+        max-width:auto;
+       }
+    /*mise en forme du header*/
     
     header
     {    
@@ -337,11 +348,12 @@ body
     figure
     {
         background-color:rgb(244,244, 205) ;
-        
         margin: auto;
     } 
      header > #titres
     {
+       
+        text-align:center;
         margin: auto;
     }
     #titres
@@ -351,61 +363,51 @@ body
         margin:auto;
         
     }
-
+/*fin de mis en forme du header*/
     main
         {  display: flex;
            flex-direction: column-reverse;
+           padding:0;
+           margin:0;
+           width:auto;
         }
 
-        
-    article>h2
+
+/*mise en place de l'article*/
+    article
     {
-        width: auto;
-    }
-    .cvexperience
-    {
-    margin-bottom: 0;
-    width: auto;
-    }
-    .cvformation
-    {
-    margin-bottom:0;
-    max-width: 100%;
-    }
-    .experience
-    {
+        width:100%;
+        padding-left: 2px;
+        display:flex;
         flex-direction: column;
-    }
-    .icone
-    {
-        flex-direction: column;
-    }
-    .mouche
-    {
-        flex-direction: column;
-    } 
-    .formateur
-    {
-        flex-direction: column;
-    }
+    }    
     
-    .recommandation
+    .experience, .mouche, .formateur,.icone
+
     {
+        display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        max-width: 100%;
+        
     }
-    main
-        {
-           flex-direction: column-reverse;
-           width: auto;
-        }
+    .experience p, .mouche p , .formateur p,.icone p
+     {
+        margin-top: 0; 
+     }
+    .puce, .point,.point1
+     {
+         margin-bottom: 0;
+     }
+/* FIN DE MISE en forme de l'article */
+
+
+/* mise ne forme de l'aside*/
     aside
     {
-        max-width: 100%;
+        
         display: flex; 
         flex-direction: column;
         height: auto;
+        width:auto;
     }
         
     .moi
@@ -427,15 +429,29 @@ body
     {
         order:1;
     }
-    #moitext p
+    #paragraphes
     {
-    margin-right: 50px ;
-    width: 100%;   
+        display: flex;
+        flex-direction: row;
+        width:100%;
+        flex-wrap: nowrap;
     }
-    #general
+    .texte{
+        width:33.33%;
+
+    }
+    .p2
     {
-        display:none;
+        width:33.33%;
     }
+    .p3
+    {
+        width:33.34%;
+        margin-top:0;
+    }
+
+
+    
     
     #contacts1 p  
         {   
@@ -450,9 +466,11 @@ body
 
 {   
     
-    body
+    #bloc-page
     {
-        max-width:100%;
+        width:auto;
+        padding:0;
+        margin:0:
         
     }
     /*mise en forme en css du header*/
@@ -460,7 +478,8 @@ body
     {    
         display:flex;   
         flex-direction: row;
-        max-height: auto;
+        height: auto;
+        width:100%;
         
     }
     figure
@@ -477,8 +496,13 @@ body
     }   
     #titres
     {
-        margin: auto;
+        padding-left: 0;
         font-size: 0.5em;
+
+    }
+    #titres h2
+    {
+        font-size: large;
     }
     /*fin mise en forme css du header*/
 
@@ -486,6 +510,7 @@ body
      {
          display:flex;
          flex-direction: column;
+         width:100%;
      }  /*installation de l'ordre du aside et de l'article sur cv*/
 
     /*mise en fome CSS du aside*/
@@ -494,16 +519,11 @@ body
         width: auto;
         display: flex; 
         flex-direction: column;
-        flex-wrap: nowrap;
         height: 100%;
         
     }
      
-    .moi
-    {
-        padding-top: 0;
-        
-    }
+    
     aside > #contacts1
     
     
@@ -519,12 +539,12 @@ body
         order:1;
     }
     
-       #general
+    #general
 
     {
         display:flex;
         flex-direction: column;
-        justify-content: space-between; 
+        justify-content: flex-start; 
         align-items: stretch;
             
     }
@@ -536,18 +556,17 @@ body
     {
         display: flex;
         flex-direction: row;
-        background-color: brown;
-       
         justify-content: space-around;  
         align-items:center;
+        margin-top: 0;
         
     }
     #précisions
     {
         display: flex;
         flex-direction: row;
-        background-color: chartreuse;
-        justify-content: space-around;  
+        justify-content: space-around;
+        margin-top: 0;  
     }
     
     #moitext p
@@ -557,33 +576,22 @@ body
         height: auto;
         padding-left: auto;
         padding-right: auto;
+        padding-bottom: 10px;
     }
     
-    #contacts1  
+    #contacts1 p  
         {    
             display:flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: center;
-            background-color:rgb(239,239,227);
-            border-top: solid 2px;
-            border-bottom: solid 2px;
-            
             margin: 0;
+            
         }
-    #contacts1 p
+    #contacts1
     {
-        margin:0;
+        padding-bottom: 15px;
     }
-    .contacts
-    {
-        display:flex;
-        margin-left: 5px;
-        font-size: 1em;
-        color:black;
-        background-color:rgb(239,239,227);
-        border-right: solid;
-        
-         }
+    
     #moitext
         {
             font-size: 20px;
@@ -594,148 +602,34 @@ body
         }
 /*mise en forme en CSS du article*/
 
-    .cvexperience
-    {
-    margin-bottom: 0;
-    }
-    .cvformation
-    {
-    margin-bottom:0;
-    }
-    .experience
-    {
-        flex-direction: column;
-    }
-    .icone
-    {
-        flex-direction: column;
-    }
-    .mouche
-    {
-        flex-direction: column;
-    } 
-    .formateur
-    {
-        flex-direction: column;
-    }
-    
-    
-    .recommandation
-    {
-        flex-direction: column;
-        justify-content: space-around;
-    }
-         
-    aside
-    {
-        width: auto;
-        display: flex; 
-        flex-direction: column;
-        justify-content: space-around;
-        flex-wrap: nowrap;
-        height: 100%;
-        
-    }
-     main
-     {
-         display:flex;
-         flex-direction: column;
-     }       
-    .moi
-    {
-        padding-top: 0;
-        
-    }
-    aside > #contacts1
-    
-    
-    {order:2;} 
-    
-    aside > #general
-
-    {
-        order:3;
-    }
-    aside > #moitxt:nth-child(2)
-    {
-        order:1;
-    }
-    
-       #general
-
-    {
-        display:flex;
-        flex-direction: column;
-        justify-content: space-between; 
-        align-items: stretch;
-            
-    }
-    .loisirs
-    {
-       margin:0; 
-    }
-    #loisirs
-    {
-        display: flex;
-        flex-direction: row;
-        background-color: brown;
-       
-        justify-content: space-around;  
-        align-items:center;
-        
-    }
-    #précisions
-    {
-        display: flex;
-        flex-direction: row;
-        background-color: chartreuse;
-        justify-content: space-around;  
-    }
-    
-    #moitext p
-    {
-        
-        margin: auto;
-        height: auto;
-        padding-left: auto;
-        padding-right: auto;
-    }
-    
-    #contacts1  
-        {    
-            display:flex;
-            flex-direction: row;
-            justify-content: center;
-            background-color:rgb(239,239,227);
-            border-top: solid 2px;
-            border-bottom: solid 2px;
-            
-            margin: 0;
-        }
-    #contacts1 p
-    {
-        margin:0;
-    }
-    .contacts
-    {
-        display:flex;
-        margin-left: 5px;
-        font-size: 1em;
-        color:black;
-        background-color:rgb(239,239,227);
-        border-right: solid;
-        
-         }
-    #moitext
-        {
-            font-size: 20px;
-            width: auto;
-            padding:5px 15 5 15;
-            text-align:center;
-            
-        }
-    article
+article
     {
         width:100%;
+        padding-left: 2px;
+        display:flex;
+        flex-direction: column;
+        text-align: justify;
+    }    
+    
+    .experience, .mouche, .formateur,.icone
+
+    {
+        display: flex;
+        flex-direction: column;
+            
     }
+    .experience p, .mouche p , .formateur p,.icone p
+     {
+        margin-top: 0; 
+     }
+    .puce, .point,.point1
+     {
+         margin-bottom: 0;
+     }
+     .cvexperience, .cvformation, .cvrecommandations
+     {
+         margin-bottom: 30px;
+     }
+     .fa-briefcase, .fa-graduation-cap,
+
 }
