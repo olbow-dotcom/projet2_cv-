@@ -604,8 +604,8 @@
 
 article
     {
-        width:100%;
-        padding-left: 2px;
+        width:auto;
+        padding-left: 15px;
         display:flex;
         flex-direction: column;
         text-align: justify;
@@ -630,6 +630,9 @@ article
      {
          margin-bottom: 30px;
      }
-     .fa-briefcase, .fa-graduation-cap,
+     .fa-briefcase, .fa-graduation-cap,.fa-user-friends
+     {
+         float: left;
+     }
 
 }
