@@ -376,8 +376,8 @@
 /*mise en place de l'article*/
     article
     {
-        width:100%;
-        padding-left: 2px;
+        width:auto;
+        align-items: center;
         display:flex;
         flex-direction: column;
     }    
