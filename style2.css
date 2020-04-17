@@ -1,334 +1,338 @@
 #bloc-page
- 
+
 {
     max-width:1100px;
     border:solid;
     margin:auto;
     
-    }
+}
 /*mise en forme du header*/
 
-    header
-        {   
-            display: flex;
-            flex-direction: row;
-            height: 200px;/*hauteur du header*/
-            background-color:rgb(244,244, 205);
-            width: 1100px;
-        }
-        figure
-            {
-                display:flex;
-                background-color :rgb(254,210,48);
-                width:250px;
-                margin:0; /*propriétés bloc photo*/
-            }
-        figure img /*proprietes photo rond et centré au bloc*/
-            {
-                border-radius: 50%;
-                width: 140px;
-                height: 140px;
-                margin: 30px 55px 30px 55px;
-            }
-        #titres /*propriétés du bloc des titres du CV (nom+emploi)*/ 
-            { 
-                display: flex;
-                flex-direction: column;
-                width:800px;
-                padding-left: 50px;
-                padding-top: 50px; 
-            }
-            #titres h2
-            {
-                margin-top: 15px;
-            }
-            #titres h1
-            {
-                height:40px;
-                font-size:3em;
-            }
-            .souligné /* soulignement de Dévé du mot développeur en jaune*/
-                {
-                    height: 50px;
-                    margin-top: 0;
-                    text-decoration: underline ;
-                    text-decoration-color: rgb(219,195,13);
-                    color:black; 
-                    
-             }
-        h1 /*reglages parametres du titre OLIVIER BOIREAU*/
-            { 
-                height:50px;
-                padding:auto;
-                margin-bottom:0;
-            }
-            span
-                {
-                    color: rgb(219,196,13);
-                } /*mise en jaune de OLIVIER dans le titre H1*/
-            
-    /*fin de la mise en forme du header*/
-
+header
+{   
+    display: flex;
+    flex-direction: row;
+    height: 200px;/*hauteur du header*/
+    background-color:rgb(244,244, 205);
+    width: 1100px;
+}
+figure
+{
+    display:flex;
+    background-color :rgb(254,210,48);
+    width:250px;
+    margin:0; /*propriétés bloc photo*/
+}
+figure img /*proprietes photo rond et centré au bloc*/
+{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin: 30px 55px 30px 55px;
+}
+#titres /*propriétés du bloc des titres du CV (nom+emploi)*/ 
+{ 
+    display: flex;
+    flex-direction: column;
+    width:800px;
+    padding-left: 50px;
+    padding-top: 50px; 
+}
+#titres h2
+{
+    margin-top: 15px;
+}
+#titres h1
+{
+    height:40px;
+    font-size:3em;
+}
+.souligné /* soulignement de Dévé du mot développeur en jaune*/
+{
+    height: 50px;
+    margin-top: 0;
+    text-decoration: underline ;
+    text-decoration-color: rgb(219,195,13);
+    color:black; 
     
-    /*mise en forme du aside (partie gaucge en jaune sur CV*/
-    main
-    {
+}
+h1 /*reglages parametres du titre OLIVIER BOIREAU*/
+{ 
+    height:50px;
+    padding:auto;
+    margin-bottom:0;
+}
+span
+{
+    color: rgb(219,196,13);
+} /*mise en jaune de OLIVIER dans le titre H1*/
+
+/*fin de la mise en forme du header*/
+
+
+/*mise en forme du aside (partie gaucge en jaune sur CV*/
+main
+{
     width: 1100px;
     display: flex;
     flex-direction: row;
     padding:0;
     margin:0;
-    }
-        aside /*dimensionnement et reglages de la partie aside bande jaune sur la gauche du cv*/
-            {
-                display: flex;
-                flex-direction:column;    
-                width:250px;
-                background-color:rgb(254,210,48);
-            }
+}
+aside /*dimensionnement et reglages de la partie aside bande jaune sur la gauche du cv*/
+{
+    display: flex;
+    flex-direction:column;    
+    width:250px;
+    background-color:rgb(254,210,48);
+}
 
-                #contacts1>p
-                {
-                    display:flex;
-                    flex-direction: column;
-                    padding-left: 15px;
-                    text-align: center;
-                }
-                .contacts /*mise en place du titre "contact"  (titre dans aside)*/
-                {    
-                    text-align: center;
-                    margin-top: 0; /*marge pour center la photo du header*/
-                    color: antiquewhite;
-                    background-color: blue;
-                    height: 35px;
-                    padding-bottom: 3px;
-                    
-                } 
-                               
-                #contacts1>p>i /*couleur des icones fontawesome*/
-                {
-                    color: rgb(96, 75, 17)
-
-                }
-                #moitext
-                {
-                    display:flex;
-                    flex-direction: column;
-                }
-                #paragraphes
-                {
-                    display: flex;
-                    flex-direction: column;
-                }
-                .moi /* mise en forme du titre " "à propos de moi" daans a side*/
-                {
-                text-align:center;
-                color: antiquewhite;
-                background-color: blue;
-                height:35px;
-                padding-bottom: 5px;
-                margin-top: 0;
-                }
-                .texte /* 1er paragraphe de 'a propos de moi" avec couleur differente pour chaque pararaphe et mise en page dans aside*/ 
-                {  
-                text-align:justify;
-                padding-left: 15px;
-                padding-right: 20px;
-                color: rgb(99, 98, 107);
-                margin-top: 0; 
-
-                }
- 
- 
-                .p2/* 2eme paragraphe de 'a propos de moi" avec couleur differente pour chaque pararaphe et mise en page dans aside*/
-                {
-                text-align: justify;
-                color: rgb(68, 64, 109);
-                padding-left: 15px;
-                padding-right: 20px;
-                margin-top:0;
-                padding-bottom: 5px;
-     
-                }
-                #web /* mise en gras et souligné et chagement de couleur pour "votre site web dans le texte aside*/
-                {
-                font-weight: bold;
-                text-decoration: underline;
-                color: rgb(242, 92, 0)
-                }
-                .p3/* 3eme paragraaphe de 'a propos de moi" avec couleur differente pour chaque pararaphe et mise en page dans aside */
-                {
-                text-align: justify;
-                color: rgb(4, 9, 48);
-                padding-left: 15px;
-                padding-right: 20px;
-                margin-top:10px;
-                margin-bottom:0;
-               
-                }
-
-                .loisirs /*mise en place et en forma du titre la partie centres d'intérets dans aside*/
-                {  
-                text-align:center;
-                color: antiquewhite;
-                background-color: blue;
-                height:35px;
-                padding-top: 5px;
-                padding-bottom: 5px;
-                }
-                 #general /*div pour mettre en colonne loisirs et description*/
-                    {
-                        display: flex;
-                        flex-direction: column;
-                        background-color: rgb(254,210,48);
-                        justify-content: space-around;
-                    }
-                     #loisirs/*formatage du bloc loisirs*/
-                        {
-                            display: flex;
-                            flex-direction: row;
-                            width: 100%;                            
-                            justify-content: space-around;
-                            margin-top: 25px;
-                        }
-                     #précisions /*formatage de la signification des icones loisirs*/
-                        {
-                            display: flex;
-                            flex-direction: row;
-                            justify-content: space-around;
-                            margin-top: 15px;
-                            width:100%
-                        }
-
-                        .ecrire /*icone stylo 'écrire'*/
-                        {
-                        width:30px;
-                        }
+#contacts1>p
+{
+    display:flex;
+    flex-direction: column;
+    padding-left: 15px;
+    text-align: center;
+}
+.contacts /*mise en place du titre "contact"  (titre dans aside)*/
+{    
+    text-align: center;
+    margin-top: 0; /*marge pour center la photo du header*/
+    color: antiquewhite;
+    background-color: blue;
+    height: 35px;
+    padding-bottom: 3px;
     
-                        .tout /*icone musique phohot*/
-                        {
-                        width:30px;
-                        }
-      
-                        .rugby /*icone rugby*/
-                        {
-                        width:30px;
-                        }
-      
-                        .coder /*icone coder*/
-                        {
-                        width:30px;
-                        }
-                        .fa-pen-fancy, .fa-icons, .fa-football-ball,.fa-laptop-code
-                        {
-                            color:rgb(10, 135, 135)
-                        }
-                    
-        article
-        {
-            display:flex;
-            flex-direction: column;
-            padding-left: 50px ;
-            background-color:rgb(244,244, 205) ;
-            width:800px;
-            
-        }
-        i
+} 
 
-        {
-            color: rgb(165, 164, 120);
+#contacts1>p>i /*couleur des icones fontawesome*/
+{
+    color: rgb(96, 75, 17)
+    
+}
+#moitext
+{
+    display:flex;
+    flex-direction: column;
+}
+#paragraphes
+{
+    display: flex;
+    flex-direction: column;
+}
+.moi /* mise en forme du titre " "à propos de moi" daans a side*/
+{
+    text-align:center;
+    color: antiquewhite;
+    background-color: blue;
+    height:35px;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+.texte /* 1er paragraphe de 'a propos de moi" avec couleur differente pour chaque pararaphe et mise en page dans aside*/ 
+{  
+    text-align:justify;
+    padding-left: 15px;
+    padding-right: 20px;
+    color: rgb(99, 98, 107);
+    margin-top: 0; 
+    
+}
 
-        }
 
-        article>section>h2
-        {
-            margin-right: 0;
-        }
-        .cvexperience
-        {
-            margin-bottom: 90px;
-        }
+.p2/* 2eme paragraphe de 'a propos de moi" avec couleur differente pour chaque pararaphe et mise en page dans aside*/
+{
+    text-align: justify;
+    color: rgb(68, 64, 109);
+    padding-left: 15px;
+    padding-right: 20px;
+    margin-top:0;
+    padding-bottom: 5px;
+    
+}
+#web /* mise en gras et souligné et chagement de couleur pour "votre site web dans le texte aside*/
+{
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(242, 92, 0)
+}
+.p3/* 3eme paragraaphe de 'a propos de moi" avec couleur differente pour chaque pararaphe et mise en page dans aside */
+{
+    text-align: justify;
+    color: rgb(4, 9, 48);
+    padding-left: 15px;
+    padding-right: 20px;
+    margin-top:10px;
+    margin-bottom:0;
+    
+}
 
-        .experience
-        {
-            display:flex;
-            flex-direction: row;
-            padding-left: 0;
-            
-        }
-        
-        .puce
-        {
-            margin-left: 0;
-            width: 160px;
-        }
-        .mouche
-        {
-            display:flex;
-            flex-direction :row;
-            padding-left: 0;
+section > h2
+{
+    text-transform: uppercase;
+}
+.loisirs /*mise en place et en forma du titre la partie centres d'intérets dans aside*/
+{  
+    text-align:center;
+    color: antiquewhite;
+    background-color: blue;
+    height:35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#general /*div pour mettre en colonne loisirs et description*/
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(254,210,48);
+    justify-content: space-around;
+}
+#loisirs/*formatage du bloc loisirs*/
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;                            
+    justify-content: space-around;
+    margin-top: 25px;
+}
+#précisions /*formatage de la signification des icones loisirs*/
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+    width:100%
+}
 
-        }
-        .point
-        {
-            margin-left: 0;
-            width: 160px;
-            padding-left: 4px;
+.ecrire /*icone stylo 'écrire'*/
+{
+    width:30px;
+}
 
-        }
-        .formateur
-        {
-            display: flex;
-            flex-direction: row;
-            padding-left: 0;
-        }
-        .cvformation
-        {
-            margin-bottom: 90px;
-        }
+.tout /*icone musique phohot*/
+{
+    width:30px;
+}
 
-         section>h2
-        {
-            border-bottom : solid rgb(254,210,48);
-            margin-right: 30px;
-            
-        }                    
+.rugby /*icone rugby*/
+{
+    width:30px;
+}
 
-        
-        .point1
-        {
-            margin-left: 0;
-            width: 160px;
-            padding-left: 4px;
-            display: flex;
-            flex-direction: row;
-        }
-        .icone
-        {
-            display:flex;
-            flex-direction: row;
-            padding-left: 0;
-        }
+.coder /*icone coder*/
+{
+    width:30px;
+}
+.fa-pen-fancy, .fa-icons, .fa-football-ball,.fa-laptop-code
+{
+    color:rgb(10, 135, 135)
+}
 
-        .recommandation
-        {
-            display: flex;
-            flex-direction: row;
-            padding-left:0;
-            justify-content: space-around;
+article
+{
+    display:flex;
+    flex-direction: column;
+    padding-left: 50px ;
+    background-color:rgb(244,244, 205) ;
+    width:800px;
+    
+}
+i
 
-        }
-        .contacts 
-        {
-            width:auto;
-        }
-  
+{
+    color: rgb(165, 164, 120);
+    
+}
+
+article>section>h2
+{
+    margin-right: 0;
+}
+.cvexperience
+{
+    margin-bottom: 90px;
+}
+
+.experience
+{
+    display:flex;
+    flex-direction: row;
+    padding-left: 0;
+    
+}
+
+.puce
+{
+    margin-left: 0;
+    width: 160px;
+}
+.mouche
+{
+    display:flex;
+    flex-direction :row;
+    padding-left: 0;
+    
+}
+.point
+{
+    margin-left: 0;
+    width: 160px;
+    padding-left: 4px;
+    
+}
+.formateur
+{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+}
+.cvformation
+{
+    margin-bottom: 90px;
+}
+
+section>h2
+{
+    border-bottom : solid rgb(254,210,48);
+    margin-right: 30px;
+    
+}                    
+
+
+.point1
+{
+    margin-left: 0;
+    width: 160px;
+    padding-left: 4px;
+    display: flex;
+    flex-direction: row;
+}
+.icone
+{
+    display:flex;
+    flex-direction: row;
+    padding-left: 0;
+}
+
+.recommandation
+{
+    display: flex;
+    flex-direction: row;
+    padding-left:0;
+    justify-content: space-around;
+    
+}
+.contacts 
+{
+    width:auto;
+}
+
 @media screen and (min-width:769px) and (max-width:1024px)
 {   
     #bloc-page 
     {
         max-width:auto;
-       }
+    }
     /*mise en forme du header*/
     
     header
@@ -340,19 +344,19 @@
         width: 100%;
     }
     figure .img
-     {
+    {
         
         margin-left: 55px;
         margin-right: 55px;
-     }
+    }
     figure
     {
         background-color:rgb(244,244, 205) ;
         margin: auto;
     } 
-     header > #titres
+    header > #titres
     {
-       
+        
         text-align:center;
         margin: auto;
     }
@@ -363,17 +367,17 @@
         margin:auto;
         
     }
-/*fin de mis en forme du header*/
+    /*fin de mis en forme du header*/
     main
-        {  display: flex;
-           flex-direction: column-reverse;
-           padding:0;
-           margin:0;
-           width:auto;
-        }
-
-
-/*mise en place de l'article*/
+    {  display: flex;
+        flex-direction: column-reverse;
+        padding:0;
+        margin:0;
+        width:auto;
+    }
+    
+    
+    /*mise en place de l'article*/
     article
     {
         width:auto;
@@ -383,24 +387,24 @@
     }    
     
     .experience, .mouche, .formateur,.icone
-
+    
     {
         display: flex;
         flex-direction: column;
         
     }
     .experience p, .mouche p , .formateur p,.icone p
-     {
+    {
         margin-top: 0; 
-     }
+    }
     .puce, .point,.point1
-     {
-         margin-bottom: 0;
-     }
-/* FIN DE MISE en forme de l'article */
-
-
-/* mise ne forme de l'aside*/
+    {
+        margin-bottom: 0;
+    }
+    /* FIN DE MISE en forme de l'article */
+    
+    
+    /* mise ne forme de l'aside*/
     aside
     {
         
@@ -409,7 +413,7 @@
         height: auto;
         width:auto;
     }
-        
+    
     .moi
     {
         padding-top: 0;
@@ -421,7 +425,7 @@
     {order:2;} 
     
     aside > #general
-
+    
     {
         order:3;
     }
@@ -438,7 +442,7 @@
     }
     .texte{
         width:33.33%;
-
+        
     }
     .p2
     {
@@ -449,17 +453,17 @@
         width:33.34%;
         margin-top:0;
     }
-
-
+    
+    
     
     
     #contacts1 p  
-        {   
-            margin:auto ;
-            text-align:center;
-            margin-top: 0.5em;
-            margin-bottom: 0.5em;
-        }
+    {   
+        margin:auto ;
+        text-align:center;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
 }
 
 @media screen and (max-width:768px)
@@ -483,9 +487,9 @@
         
     }
     figure
-     {
-        padding-left: 55px;
-        padding-right: 55px;
+    {
+        padding-left: 20px;
+        padding-right: 20px;
         background-color:rgb(244,244, 205) ;
     }
     figure>img
@@ -498,21 +502,21 @@
     {
         padding-left: 0;
         font-size: 0.5em;
-
+        
     }
     #titres h2
     {
         font-size: large;
     }
     /*fin mise en forme css du header*/
-
+    
     main
-     {
-         display:flex;
-         flex-direction: column;
-         width:100%;
-     }  /*installation de l'ordre du aside et de l'article sur cv*/
-
+    {
+        display:flex;
+        flex-direction: column;
+        width:100%;
+    }  /*installation de l'ordre du aside et de l'article sur cv*/
+    
     /*mise en fome CSS du aside*/
     aside
     {
@@ -522,7 +526,7 @@
         height: 100%;
         
     }
-     
+    
     
     aside > #contacts1
     
@@ -530,7 +534,7 @@
     {order:2;} 
     
     aside > #general
-
+    
     {
         order:3;
     }
@@ -540,17 +544,17 @@
     }
     
     #general
-
+    
     {
         display:flex;
         flex-direction: column;
         justify-content: flex-start; 
         align-items: stretch;
-            
+        
     }
     .loisirs
     {
-       margin:0; 
+        margin:0; 
     }
     #loisirs
     {
@@ -580,59 +584,66 @@
     }
     
     #contacts1 p  
-        {    
-            display:flex;
-            flex-direction: column;
-            justify-content: center;
-            margin: 0;
-            
-        }
+    {    
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        
+    }
     #contacts1
     {
         padding-bottom: 15px;
     }
     
     #moitext
-        {
-            font-size: 20px;
-            width: auto;
-            padding:5px 15 5 15;
-            text-align:center;
-            
-        }
-/*mise en forme en CSS du article*/
-
-article
+    {
+        font-size: 20px;
+        width: auto;
+        padding:5px 15 5 15;
+        text-align:center;
+        
+    }
+    /*mise en forme en CSS du article*/
+    
+    article
     {
         width:auto;
         padding-left: 15px;
+        padding-right: 15px;
         display:flex;
         flex-direction: column;
         text-align: justify;
     }    
     
     .experience, .mouche, .formateur,.icone
-
+    
     {
         display: flex;
         flex-direction: column;
-            
+        
     }
     .experience p, .mouche p , .formateur p,.icone p
-     {
+    {
         margin-top: 0; 
-     }
+    }
     .puce, .point,.point1
-     {
-         margin-bottom: 0;
-     }
-     .cvexperience, .cvformation, .cvrecommandations
-     {
-         margin-bottom: 30px;
-     }
-     .fa-briefcase, .fa-graduation-cap,.fa-user-friends
-     {
-         float: left;
-     }
-
+    {
+        margin-bottom: 0;
+    }
+    .cvexperience, .cvformation, .cvrecommandations
+    {
+        margin-bottom: 30px;
+    }
+    .fa-briefcase, .fa-graduation-cap,.fa-user-friends
+    {
+        font-size: 1.5em;
+    }
+    section > h2
+    {
+        font-size: 1.2em;
+        
+        text-transform: initial;
+    }
+    
 }
