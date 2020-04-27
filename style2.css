@@ -59,7 +59,7 @@ figure img /*proprietes photo rond et centré au bloc*/
 h1 /*reglages parametres du titre OLIVIER BOIREAU*/
 { 
     height:50px;
-    padding:auto;
+    padding : 0;
     margin-bottom:0;
 }
 span
@@ -207,6 +207,7 @@ section > h2
 .ecrire /*icone stylo 'écrire'*/
 {
     width:30px;
+    
 }
 
 .tout /*icone musique phohot*/
@@ -225,7 +226,9 @@ section > h2
 }
 .fa-pen-fancy, .fa-icons, .fa-football-ball,.fa-laptop-code
 {
-    color:rgb(10, 135, 135)
+    color:rgb(10, 135, 135);
+    border:3px solid rgb(10,135,135);
+    border-radius: 50%;
 }
 
 article
@@ -331,7 +334,7 @@ section>h2
 {   
     #bloc-page 
     {
-        max-width:auto;
+        width:auto;
     }
     /*mise en forme du header*/
     
@@ -474,7 +477,7 @@ section>h2
     {
         width:auto;
         padding:0;
-        margin:0:
+        margin:0;
         
     }
     /*mise en forme en css du header*/
@@ -578,8 +581,6 @@ section>h2
         
         margin: auto;
         height: auto;
-        padding-left: auto;
-        padding-right: auto;
         padding-bottom: 10px;
     }
     
@@ -600,7 +601,7 @@ section>h2
     {
         font-size: 20px;
         width: auto;
-        padding:5px 15 5 15;
+        padding:5px 15px 5px 15px;
         text-align:center;
         
     }
